@@ -1,10 +1,10 @@
 function printMultiplicationTable(size) {
     for (let i = 1; i <= size; i++) {
-        var stars = "";
+        var result = "";
         for (let j = 1; j <= size; j++) {
-            stars += "* ";
+            result += i * j + " ";
         }
-        console.log(stars);
+        console.log(result);
     }
 }
 
